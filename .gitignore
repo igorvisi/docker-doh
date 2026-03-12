@@ -1,0 +1,26 @@
+# Docker
+.dockerignore
+!/.dockerignore
+
+# Certificats
+/certs/
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
